@@ -4,7 +4,7 @@ import SignInScreen from './SignInScreen'
 
 function Login() {
   const [signIn, setSignIn] = useState(false)
-  console.log(signIn)
+
   return (
     <div className="loginScreen">
       <div className="loginScreen__background">
