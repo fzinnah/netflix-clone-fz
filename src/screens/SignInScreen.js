@@ -50,7 +50,7 @@ function SignInScreen() {
         <input ref={emailRef} type="email" placeholder="Email" />
         <input ref={passwordRef} type="password" placeholder="Password" />
         <button type="submit" onClick={signIn}>
-          Submit
+          Sign In
         </button>
         <h4>
           <span className="signInScreen__gray">New to Netflix? </span>
